@@ -1,0 +1,24 @@
+version: '3.0'
+services:
+  app:
+    image: node:18.12.0
+    command: sh -c "npm i -g npm@8.19.2 && npm i && npm run start"
+    ports:
+      - 3000:3000
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+  backend:
+    image: node:18.12.0
+    command: sh -c "npm i -g npm@8.19.2 && npm i && npm run start"
+    ports:
+      - 4000:4000
+    working_dir: /app
+    volumes:
+      - ./backend:/app
+  proxy :
+    image: nginx:latest
+    ports:
+      - 8080:8080
+    volumes:
+      - ./nginx:/etc/nginx/conf.d

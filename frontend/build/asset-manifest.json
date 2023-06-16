@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.46c18b2a.css",
+    "main.js": "/static/js/main.ac2ceef7.js",
+    "static/media/sarah-dayan.jpg": "/static/media/sarah-dayan.a8ff3f1095a58085a82e.jpg",
+    "static/media/plus.svg": "/static/media/plus.903e24f8b44ec7f5530eb87c6c3c066b.svg",
+    "index.html": "/index.html",
+    "main.46c18b2a.css.map": "/static/css/main.46c18b2a.css.map",
+    "main.ac2ceef7.js.map": "/static/js/main.ac2ceef7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46c18b2a.css",
+    "static/js/main.ac2ceef7.js"
+  ]
+}
